@@ -3,7 +3,7 @@ from phonenumbers import timezone, geocoder, carrier
 
 # Use phone number as a string.
 # use country code also.
-
+# will provide timezone, carrier and region
 
 number = input("Enter your number with country code: ")
 phone = phonenumbers.parse(number)
